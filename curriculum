@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        /* SUPERIOR  */
+
+        .superior {
+            display: flex;
+            width: 850px;
+            height: 200px;
+            margin: 25px auto;
+            background-color: gray;
+        }
+
+        .photo {
+            border-radius: 50%;
+            width: 160px;
+            height: 150px;
+            margin: 25px auto;
+            margin-left: 25px;
+            margin-top: 5px;
+        }
+
+        .texto {
+            margin: 25px auto;
+            text-align: center;
+        }
+
+        .texto h1 {
+            font-size: 35px;
+            font-family: Helvetica;
+            color: white;
+        }
+
+        .texto h2 {
+            font-size: 20px;
+            font-family: Arial;
+            color: white;
+        }
+
+        /* INFERIOR */
+        .inferior {
+            display: flex;
+            width: 850px;
+            height: 255px;
+            margin: 25px auto;
+        }
+
+        .left {
+            margin-top: -25px;
+            background-color: silver;
+            width: 300px;
+            height: 915px;
+        }
+
+        .right {
+            margin-top: -812px;
+            background-color: white;
+            width: 550px;
+            height: 910px;
+            margin-left: 300px;
+        }
+
+        .guion {
+            background-color: black;
+            border: black;
+            width: 230px;
+            height: 2px;
+            margin-top: -15px;
+            margin-left: 0;
+        }
+
+        .contacto_text {
+            list-style: none;
+            margin: 25px auto;
+            margin-left: -40px;
+            margin-top: 5px;
+            line-height: 150%
+        }
+
+        .idiomas_text {
+            list-style: none;
+            margin: 25px auto;
+            margin-left: -40px;
+            margin-top: 5px;
+            line-height: 150%
+        }
+
+        .aptitudes_text {
+            list-style: disc;
+            margin: 25px auto;
+            margin-left: -20px;
+            margin-top: 5px;
+            line-height: 150%
+        }
+
+        .habilidades_text {
+            list-style: disc;
+            margin: 25px auto;
+            margin-left: -20px;
+            margin-top: 5px;
+            line-height: 150%
+        }
+
+        .intereses_text {
+            list-style: disc;
+            margin: 25px auto;
+            margin-left: -20px;
+            margin-top: 5px;
+            line-height: 150%
+        }
+
+        .perfil {
+            margin-top: 45px;
+        }
+
+        .guion_2 {
+            background-color: black;
+            border: black;
+            width: 480px;
+            height: 2px;
+            margin-top: -15px;
+            margin-left: 0;
+        }
+
+        .perfil_text {
+            list-style: none;
+            margin-left: -40px;
+            margin-right: 20px;
+            margin-top: 5px;
+            line-height: 150%;
+        }
+
+        .experiencia_text {
+            list-style: disc;
+            margin-left: -20px;
+            margin-right: 20px;
+            margin-top: -15px;
+            line-height: 150%;
+        }
+
+        .place {
+            margin-top: -15px;
+            font-style: inherit;
+        }
+
+        .date {
+            color: "grey";
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <section class="superior">
+            <figure>
+                <img class="photo" src="https://opem.b-cdn.net/wp-content/uploads/2022/10/foto-curriculum.jpg" />
+            </figure>
+            <div class="texto">
+                <h1> José Martínez</h1>
+                <h2> PUESTO OCUPADO / BUSCADO </h2>
+            </div>
+        </section>
+
+        <section class="inferior">
+
+            <div class="left">
+                <ul class="contacto">
+                    <h2>CONTACTO</h2>
+                    <HR class="guion">
+                    <ul class="contacto_text">
+                        <li> &#128222; 999 999 999</li>
+                        <li> &#128231; jose.martinez@gnail.com</li>
+                        <li> &#128205; México DF</li>
+                        <li> &#128084; linkedin.com/jose-martinez</li>
+                    </ul>
+                </ul>
+
+                <ul class="idiomas">
+                    <h2>IDIOMAS</h2>
+                    <HR class="guion">
+                    <ul class="idiomas_text">
+                        <li>Español: Nativo</li>
+                        <li>Inglés: Bilingüe (TOEIC 950)</li>
+                        <li>Francés: Intermedio (B2)</li>
+                    </ul>
+                </ul>
+
+                <ul class="aptitudes">
+                    <h2>APTITUDES</h2>
+                    <HR class="guion">
+                    <ul class="aptitudes_text">
+                        <li>Inteligencia emocional</li>
+                        <li>Espíritu crítico</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Capacidad analitica</li>
+                        <li>Habilidades físicas</li>
+                    </ul>
+                </ul>
+
+                <ul class="habilidades">
+                    <h2>HABILIDADES</h2>
+                    <HR class="guion">
+                    <ul class="habilidades_text">
+                        <li>Acondicionamiento físico</li>
+                        <li>Creación de videos deportivos</li>
+                        <li>Pack office</li>
+                        <li>Tenis</li>
+                    </ul>
+                </ul>
+
+                <ul class="intereses">
+                    <h2>OTROS INTERESES</h2>
+                    <HR class="guion">
+                    <ul class="intereses_text">
+                        <li>Creador de yincanas</li>
+                        <li>Paseos ecológicos grupales</li>
+                        <li>Lectura grupal en inglés</li>
+                    </ul>
+                </ul>
+
+            </divn>
+
+            <div class="right">
+                <ul class="perfil">
+                        <h2>PERFIL</h2>
+                        <HR class="guion_2">
+                        <ul class="perfil_text">
+                            Trabajador Social con 4 años de experiencia en proyectos colectivos. Mi objetivo es lograr
+                            que los jóvenes obtengan acceso a la educación superior mediante logros deportivos.
+                        </ul>
+                </ul>
+
+                    <ul class="experiencia">
+                        <h2>EXPERIENCIA LABORAL</h2>
+                        <HR class="guion_2">
+                        <h3>Trabajador Social</h3>
+                        <h4 class="place">
+                            México DF
+                            <font color="grey"> | 2022 - Actualmente</font>
+                        </h4>
+                        <ul class="experiencia_text">
+                            <li>Coordinador y mediador entre los equipos de ayuda psicológica a jóvenes y niños en
+                                exclusión social.</li>
+                            <li>Velar por la salud mental del equipo y de miembros involucrados en proyectos.</li>
+                            <li>Mapeo de necesidades estratégicas y lógicas para las diferentes áreas.</li>
+                            <li>Monitor de ejercicios físicos para adolescentes.</li>
+                            <li>Programar diferentes actividades extracurriculares en los involucrados.</li>
+                        </ul>
+
+                        <h3>Trabajador Social</h3>
+                        <h4 class="place">
+                            México DF
+                            <font color="grey"> | 2020 - 2022</font>
+                        </h4>
+                        <ul class="experiencia_text">
+                            <li>Funciones para seguimientos de casos para jóvenes con problemas de adicciones.</li>
+                            <li>Capacitaciones e integración vinculadas a medidas preventivas.</li>
+                            <li>Recopilación de evidencias para auditorias y programas sociales.</li>
+                        </ul>
+
+                        <h3>Trabajador Social (Prácticas)</h3>
+                        <h4 class="place">
+                            Zaragoza, España
+                            <font color="grey"> | 2019 - 2020</font>
+                        </h4>
+                        <ul class="experiencia_text">
+                            <li>Profesor de lengua española e inglesa para jóvenes migrantes.</li>
+                            <li>Monitor de actividades ecológicas con adolescentes.</li>
+                            <li>Coordinador de áreas deportivas.</li>
+                        </ul>
+                    </ul>
+
+                    <ul class="formacion">
+                        <h2>FORMACIÓN</h2>
+                        <HR class="guion_2">
+                        <h3>Grado de Trabajado Social</h3>
+                        <h4 class="place">
+                            ESMA, Madrid
+                            <font color="grey"> | 2012 - 2015</font>
+                        </h4>
+                        <h3>Licenciatura Profesional</h3>
+                        <h4 class="place">
+                            Universidad de la Frontera, México DF
+                            <font color="grey"> | 2011 - 2012</font>
+                        </h4>
+                    </ul>
+            </divn>
+
+        </section>
+    </main>
+</body>
+
+</html>
